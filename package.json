@@ -1,0 +1,20 @@
+{
+  "name": "advanced-image-cgb-guten-block",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject",
+    "format:js:src": "wp-scripts format-js ./src",
+    "lint:js:src": "wp-scripts lint-js ./src",
+    "lint:scss:src": "wp-scripts lint-style 'src/**/*.scss'"
+  },
+  "dependencies": {
+    "cgb-scripts": "1.23.1",
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^12.1.1"
+  }
+}
